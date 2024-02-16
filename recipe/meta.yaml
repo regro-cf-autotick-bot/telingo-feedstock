@@ -1,5 +1,5 @@
-{% set name = 'telingo' %}
-{% set version = '2.1.2' %}
+{% set name = "telingo" %}
+{% set version = "2.1.3" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/potassco/{{ name }}/archive/v{{ version }}.zip
-  sha256: c9d310e000c6cebade8c1e51fab4fb5604a32a88f259fc65ea44791e1909e647
+  sha256: 973f9659ccfc006b0568e350b1cdc3c175840ff4cb3cc7ffcf648c2cbabe669d
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
     - pip check
 
 about:
-  home:  https://potassco.org/
+  home: https://potassco.org/
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
